@@ -1,0 +1,57 @@
+.selected-symptomsee{
+    background-color: #f2f2f2;
+    width: 80%;
+    margin: 15px auto 5px;
+    padding: 5px ;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.selected-symptomm{
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.85rem;
+    background-color: rgba(113, 140, 99, 255);
+    padding: 2px 15px;
+    margin: 2px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+tr td:nth-child(2){
+    color: #44c283;
+    font-weight: 600;
+}
+ul{
+    width: 30%;
+    margin-left: 20%;
+}
+li{
+margin: 10px;
+}
+li div{
+    display: flex;
+    justify-content: space-between;
+}
+li span:nth-child(1){
+    font-weight: 600;
+}
+li div div{
+    color: #44c283;
+    font-weight: 600;
+    text-justify: right;
+    width: 30px;
+}
+.navlink{
+text-decoration: none;
+color: #44c283;
+font-weight: 550;
+width: 80%;
+text-align: left;
+margin: auto;
+margin-bottom: 20px;
+}
+.navlink i{
+    margin-right: 10px;
+}

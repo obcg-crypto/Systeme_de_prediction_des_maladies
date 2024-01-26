@@ -1,0 +1,227 @@
+.main-container{
+   display: flex;
+   height: 100vh;
+   background-color: rgb(206, 219, 205);
+   justify-content: right;
+}
+.left-container {
+    width: 50%;
+    height: 100vh;
+    border-radius: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.para{
+    color: #44c283;
+    font-size: 35px;
+    margin-top: 0px;
+}
+.left-title{
+    font-weight: 600;
+    margin-top: 45px;
+    font-size: 33px;
+}
+.left-container img{
+    background-color: #ebe9e9;
+    width: 50%;
+    border-radius: 50px;
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+}
+.right-container{
+    background-color: #ebe9e9;
+    width: 50%;
+    height: 100vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.title{
+    font-weight: 600;
+    /*color: rgba(113, 236, 99, 255);*/
+    color: #44c283;
+    margin-top: 30px;
+    font-size: 23px;
+}
+che
+.search{
+    display: flex;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.text{
+    color: rgba(113, 186, 99, 255);
+    font-weight: 550;
+    margin-left: 40px;
+    margin-top: 4px;
+}
+.search-bar{
+    background-color: rgb(150, 158, 150);
+    width: 60%;
+    height: 25px;
+    border-radius: 15px;
+    margin-left: 10px;
+    border: solid rgba(113, 186, 99, 255);
+    color: white;
+}
+.table-container{
+    width: 80%;
+    background: #fff;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+thead{
+    background: #44c283;
+    color: #fff;
+}
+th{
+    padding: 5px;
+    text-align: center;
+}
+tbody{
+    background: #f2f2f2;
+}
+td{
+    padding: 5px;
+    padding-left: 10%;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}
+tr td:nth-child(2){
+    text-align: center;
+}
+.custom-checkbox {
+    /* Hide the default checkbox */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #44c283;
+    border-radius: 3px;
+    outline: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .custom-checkbox:checked {
+    background-color: #44c283;
+  }
+
+
+.custom-checkbox + label i {
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  color: #fff;
+  font-size: 12px;
+  pointer-events: none;
+}
+tr:nth-child(even){
+  background: #fff;  
+}
+
+.symptoms{
+    width: 95%;
+    margin: 10px auto;
+    padding: 5px ;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.symptom{
+    color: rgb(57, 223, 85);
+    font-weight: 500;
+    font-size: 0.85rem;
+    background-color: rgb(18, 131, 230);
+    padding: 2px 15px;
+    margin: 4px;
+    border-radius: 10px;
+}
+.selected-symptoms{
+    background-color: #f2f2f2;
+    width: 80%;
+    margin: 5px auto;
+    padding: 5px ;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.selected-symptom{
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.85rem;
+    background-color: rgba(113, 140, 99, 255);
+    padding: 2px 15px;
+    margin: 2px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.main{
+    height: 50%;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+}
+.first-div{
+    height: 125px;
+    background-color: rgb(240, 255, 244);
+    width: 95%;
+    margin: 15px auto;
+    border-radius: 10px;
+    display: flex;
+}
+button{
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-weight: 600;
+    color: #44c283;
+    width: 80px;
+    margin: 4px auto;
+}
+button:hover{
+    cursor:pointer
+}
+.buttone{
+    background-color: #44c283;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-weight: 600;
+    color:#fff;
+    margin: 4px auto;
+}
+.predict{
+    margin-top: 25px;
+}
+.navlinke{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 550;
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 20px;
+}
